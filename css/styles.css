@@ -43,8 +43,12 @@ li {
   color: var(--active-color); /* НЕ РОБЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕ */
 }
 
+.button-elements {
+  color: var(--accent-color);
+}
 .button-elements:hover {
   background-color: var(--active-color);
+  color: var(--secondary-color);
 }
 
 /* ============== COMPONENTS ==============*/

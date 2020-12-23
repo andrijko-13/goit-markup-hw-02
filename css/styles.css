@@ -35,12 +35,14 @@ li {
   list-style-type: none;
 }
 
-.current:hover {
-  color: var(--active-color);
+.current:hover,
+.current:focus {
+  color: var(--active-color); /*    focus не работает    */
 }
 
-.current:focus {
-  color: var(--active-color); /* НЕ РОБЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕ */
+.header-address-mail:hover,
+.header-address-tel:hover {
+  color: var(--active-color);
 }
 
 .button-elements {

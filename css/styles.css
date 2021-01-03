@@ -35,7 +35,7 @@ li {
   list-style-type: none;
 }
 
-.nav-list-link-current {
+.nav-list-link.current {
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 500;
